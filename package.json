@@ -1,6 +1,6 @@
 {
   "name": "ai-cli",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "一个基于 AI 的命令行工具",
   "main": "./dist/cli.js",
   "bin": {
