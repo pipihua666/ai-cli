@@ -15,11 +15,11 @@
 ## 安装
 
 ```bash
-npm install -g ai-cli
+npm install -g @pipihua/ai-cli
 # 或者
-yarn global add ai-cli
+yarn global add @pipihua/ai-cli
 # 或者
-pnpm add -g ai-cli
+pnpm add -g @pipihua/ai-cli
 ```
 
 ## 配置
