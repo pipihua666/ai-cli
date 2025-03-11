@@ -1,8 +1,8 @@
 import dotenv from 'dotenv'
 
 export enum ServeEnum {
-  ChatGPT = 'ChatGPT',
-  DeepSeek = 'DeepSeek'
+  ChatGPT = 'chatgpt',
+  DeepSeek = 'deepseek'
 }
 
 interface ChatGPTEnv {
