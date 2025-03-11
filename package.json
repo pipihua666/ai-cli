@@ -1,18 +1,37 @@
 {
   "name": "ai-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "一个基于 AI 的命令行工具",
   "main": "./dist/cli.js",
   "bin": {
     "ai-cli": "./dist/cli.js"
   },
   "scripts": {
     "dev": "tsc --watch",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipihua666/ai-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pipihua666/ai-cli/issues"
+  },
+  "homepage": "https://github.com/pipihua666/ai-cli#readme",
+  "keywords": [
+    "ai",
+    "cli",
+    "code-review",
+    "chatgpt",
+    "deepseek"
+  ],
+  "author": "pipihua",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.13.9",
     "typescript": "^5.8.2"
